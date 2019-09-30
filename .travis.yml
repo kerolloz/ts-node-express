@@ -1,5 +1,20 @@
 dist: bionic
+
 language: node
-script:
-  - npm i
-  - npm test
+
+node_js:
+  - 'node'
+  - 12
+
+install:
+  - npm install
+
+matrix:
+  fast_finish: true
+
+cache:
+  directories:
+    - node_modules
+
+git:
+  depth: 1
