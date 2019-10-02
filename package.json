@@ -4,10 +4,9 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "serve": "node -r dotenv/config -r source-map-support/register .",
-    "start": "npm run build && npm run serve",
+    "start": "node -r dotenv/config -r source-map-support/register .",
     "postinstall": "npm run build",
-    "dev": "nodemon --config .nodemonrc",
+    "dev": "tsc -w & nodemon --config .nodemonrc",
     "build": "tsc",
     "lint": "eslint . --ext .ts",
     "test": "tsc && NODE_ENV=test mocha"
