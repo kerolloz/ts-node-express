@@ -11,7 +11,7 @@
   <a href="https://github.com/kerolloz/ts-node-express/issues">
     <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat">
   </a>
-  <a href="https://github.com/badges/shields/generate">
+  <a href="https://github.com/kerolloz/ts-node-express/generate">
     <img src="https://img.shields.io/badge/use%20this%20template-green?logo=github">
   </a>
   <a href="http://hits.dwyl.io/kerolloz/ts-node-express">
