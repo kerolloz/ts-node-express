@@ -9,7 +9,7 @@ import morgan from 'morgan';
 import {errorHandler} from './middlewares';
 import routes from './routes';
 
-const app = express();
+export const app = express();
 
 const logger =
   app.get('env') === 'development'
