@@ -11,7 +11,9 @@
   <a href="https://github.com/kerolloz/ts-node-express/issues">
     <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat">
   </a>
-
+  <a href="https://github.com/badges/shields/generate">
+    <img src="https://img.shields.io/badge/use%20this%20template-green?logo=github">
+  </a>
   <a href="http://hits.dwyl.io/kerolloz/ts-node-express">
     <img src="http://hits.dwyl.io/kerolloz/ts-node-express.svg">
   </a>
@@ -39,13 +41,19 @@ Included some important packages:
 
 # Usage
 
-Click `Use this template` button
-<button class="btn btn-sm btn-primary ml-2" href="https://github.com/kerolloz/ts-node-express/generate">Use this template</button>
+[Creating a repository from a template](https://help.github.com/en/articles/creating-a-repository-from-a-template)
+
+[![Use This Template](https://img.shields.io/badge/use%20template-ts%20node%20express-blue?style=for-the-badge&logo=github)](https://github.com/kerolloz/ts-node-express/generate)
+
+```shell
+npm i
+npm run dev # for development (watches for file changes)
+npm start   # for serving
+```
 
 # Structure
 
-```tree
-
+```
 ├── package.json
 ├── package-lock.json
 ├── README.md
