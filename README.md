@@ -40,7 +40,7 @@ Included some important packages:
 # Usage
 
 Click `Use this template` button
-<a class="btn btn-sm btn-primary ml-2" href="https://github.com/kerolloz/ts-node-express/generate">Use this template</a>
+<button class="btn btn-sm btn-primary ml-2" href="https://github.com/kerolloz/ts-node-express/generate">Use this template</button>
 
 # Structure
 
