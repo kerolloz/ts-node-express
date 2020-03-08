@@ -14,10 +14,6 @@
   <a href="https://github.com/kerolloz/ts-node-express/generate">
     <img src="https://img.shields.io/badge/use%20this%20template-green?logo=github">
   </a>
-  <a href="http://hits.dwyl.io/kerolloz/ts-node-express">
-    <img src="http://hits.dwyl.io/kerolloz/ts-node-express.svg">
-  </a>
-
   <a href="https://travis-ci.com/kerolloz/ts-node-express">
     <img src="https://travis-ci.com/kerolloz/ts-node-express.svg?branch=master">
   </a>
