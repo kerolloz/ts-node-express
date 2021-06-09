@@ -6,8 +6,20 @@
         {
             "type": "npm",
             "script": "dev",
-            "group": "build",
-            "problemMatcher": []
+            "group": "none",
+            "problemMatcher": [
+              "$tsc"
+            ]
+        },
+        {
+          "type": "npm",
+          "script": "build",
+          "problemMatcher": [
+            "$tsc"
+          ],
+          "group": "build",
+          "label": "npm: build",
+          "detail": "tsc"
         }
     ]
 }
